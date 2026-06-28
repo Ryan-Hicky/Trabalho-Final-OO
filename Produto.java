@@ -15,6 +15,10 @@ public abstract class Produto {
         this.quantidadeEstoque = quantidadeEstoque;
     }
 
+    public String getCodigo() {
+        return codigo;
+    }
+
     public String getNome() { return nome; }
     public double getPrecoBase() { return precoBase; }
     public int getQuantidadeEstoque() { return quantidadeEstoque; }
