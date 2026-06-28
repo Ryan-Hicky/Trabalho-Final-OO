@@ -11,6 +11,10 @@ public abstract class Cliente {
         this.saldoXP = 0.0;
     }
 
+    public String getCpf() {
+        return cpf;
+    }
+
     public String getNome() { return nome; }
     public double getSaldoXP() { return saldoXP; }
     protected void setSaldoXP(double saldoXP) { this.saldoXP = saldoXP; }
